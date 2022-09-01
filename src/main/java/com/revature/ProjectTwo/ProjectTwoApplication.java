@@ -1,0 +1,16 @@
+package com.revature.ProjectTwo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication(scanBasePackages = "com.revature.ProjectTwo.beans")
+public class ProjectTwoApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ProjectTwoApplication.class, args);
+	}
+
+
+
+
+}
